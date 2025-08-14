@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator - Free AI Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body> 
+     <div class="container">
+        <header class=""header>
+            <div class="logo-wrapper">
+                <div class="logo">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                
+            <h1>AI Image Generator</h1>
+            </div>
+           </div>
+        </header>   
+        <div class="main-container">
+            <form action="#" class=""prompt-form>
+                <div class="prompt-container">
+                    <textarea class="prompt-input" placeholder="Describe your imagination in detail..." required autofocus></textarea>
+                <button class="prompt-btn" type="button">
+                    <i class="fa-solid fa-dice"></i>
+                </button>
+                </div>
+                <br>
+                <div class="prompt-actions">
+
+
+                    <div class="select-wrapper" required >
+                     <select class="custom-select" id="count-select">
+                        <option value="" selected disabled>Image Count</option>
+                        <option value="1">1 Image</option>
+                        <option value="2">2 Images</option>
+                        <option value="3">3 Images</option>
+                        <option value="4">4 Images</option>
+                     </select>
+                    </div>
+
+                    <div class="select-wrapper" required>
+                     <select class="custom-select" id="aspect-select">
+                        <option value="" selected disabled>Aspect Ratio</option>
+                        <option value="1/1">Square (1:1)</option>
+                        <option value="16/9">Landscape (16:9)</option>
+                        <option value="9/16">Potrait (9:16)</option>
+                     </select>
+                    </div>
+
+                    <button type="submit" class="generate-btn" type="submit">
+                        <i class="fa-solid fa-wand-sparkles"></i>
+                        Generate
+                    </button>
+                </div>
+
+
+                <div class="gallery-grid">
+                    
+                    
+                    </div>
+                </div>
+            </form>
+        </div>  
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
