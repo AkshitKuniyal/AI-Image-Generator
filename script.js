@@ -5,7 +5,7 @@ const generateBtn = document.querySelector(".generate-btn");
 const countSelect = document.getElementById("count-select");
 const aspectSelect = document.getElementById("aspect-select");
 const gridGallery = document.querySelector(".gallery-grid");
-const API_KEY = "f3f1e4847c740648aac8f64d031bc88a7954c0464df7c87dfe18d8e01564847cc25aee42d3538e04b56275e97e7538bc";
+const API_KEY = "359e02d194741560f11e4f1ad0e61b40649e54f8be376ea94fb1ec9b4f0f82d91f5019fb34f74faf74cd5fed1993e9a3";
 
 // Example prompts
 const examplePrompts = [
@@ -132,3 +132,4 @@ promptBtn.addEventListener("click", (e) => {
 });
 
 generateBtn.addEventListener("click", handleFormSubmit);
+
