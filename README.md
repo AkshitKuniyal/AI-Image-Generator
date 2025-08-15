@@ -36,7 +36,7 @@ Displays results with download options.
 
 🚀 Getting Started
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/ai-image-generator.git
+git clone https://github.com/AkshitKuniyal/AI-Image-Generator
 cd ai-image-generator
 
 2️⃣ Open in Browser
@@ -72,5 +72,6 @@ The API may have rate limits depending on your plan.
 The generated images are subject to Clipdrop's usage policy.
 
 📄 License
+
 
 This project is licensed under the MIT License – feel free to modify and use it.
